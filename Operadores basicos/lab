@@ -1,0 +1,13 @@
+P02: Operadores basicoas
+Objetivo: utilizar diferentes operadores para facilitar el procesamiento complejo de imagenes
+
+Instrucciones:
+a)Aplique los siguientes operadores a una imagen:
++Aclarado/Oscurecimiento
++Copiado
++Negativo
++Aumento/Diminucion de brillo
++Elongacion/Reduccion de contraste
++Shifting H/V/D
+
+Shifting es el cambio de direccion de la fuente de luz
