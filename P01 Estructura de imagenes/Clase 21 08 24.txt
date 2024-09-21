@@ -1,0 +1,2 @@
+P01: Estructura de imagen
+Objetivo: obtener los tensores RGB y la matriz de escala de grises de una imagen seleccionada

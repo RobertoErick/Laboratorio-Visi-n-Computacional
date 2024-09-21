@@ -1,0 +1,14 @@
+P04: Umbrales
+Objetivo: Utilizar umbrales para discretizar la imagen
+
+Instrucciones:
+a)Utilice los siguientes umbrales semi adaptativosen una imagen
+- Varianza
+- Entropia
+- Valle global
+b) Utilice umbrales para generaruna imagen con 3, 4, 8 y 16 tonos
+
+Varianza
+Entropia
+    sin valor maximo (tema que votaron que no se viera en clase)
+Valle Global

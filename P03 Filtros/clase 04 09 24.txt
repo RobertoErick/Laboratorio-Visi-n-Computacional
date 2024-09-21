@@ -1,0 +1,31 @@
+P03: Filtros
+Objetivo: utilizar filtros para eliminar perturbaciones en la imagen
+
+Instrucciones:
+a) Detecte anomalias en la composicion de una imagen
+b) Utilice filtro de mediana y moda para eliminar las anomalias
+
+MEDIANA
+tenemos la matriz de una imagen, la pasamos al lado derecho ordenado de mayor a menor y obtenemos el valor de enmedio (mediana)
+
+el numero de abajo de la matriz es la media regional (promedio)
+
+obtenemos la nueva matriz a partir de la formula =(ABS([Valor]-[promedio])*100/[promedio])
+
+escojemos un valor (en este caso es >10) de los demas que sobresalga para corregirlo 
+
+Teniendo la primera matriz de imagen, reemplazamos las posiciones con >10 de la anterior imagen con el promedio (mediana)
+
+Volvemos a obtener la matriz de dispercion =(ABS([Valor]-[promedio])*100/[promedio])
+
+Y obtnenemos la suma de dispersion
+
+En cuanto a la MODA
+se escoje el valor con menor suma de dispersion del valor de la moda, si es que son variaas modas 
+
+Actividad
+Agarrar 62x40 la seccion que se debe agarrar de una imagen
+
+Para la funcion de moda
+multimodales 
+numpy debe haber una

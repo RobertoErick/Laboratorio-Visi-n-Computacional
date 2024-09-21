@@ -1,0 +1,6 @@
+P05: Vecindarios y Bordes
+
+Objetivo: Encontrar los vecindarios en una imagene identificar los pixeles borde
+
+Deteccion de vecindarios
+mediante la deteccion de vecino proximo
