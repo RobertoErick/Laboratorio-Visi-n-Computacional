@@ -29,3 +29,6 @@ else:
     cv2.imshow("Imagen a Blanco y negro", gray_image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+
+    # Guardar la imagen en blanco y negro
+    cv2.imwrite("Imagen a Blanco y negro.png", gray_image)
